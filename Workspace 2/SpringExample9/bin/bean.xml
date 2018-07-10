@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean id="javaCollection" class="com.devansh.JavaCollection">
+   <property name="list">
+   <list>
+   <value>India</value>
+   <value>USA</value>
+   <value>Great Britain</value>
+   <value>Great Britain</value>
+   </list>
+   </property>
+   
+   <property name="set">
+   <set>
+   <value>India</value>
+   <value>USA</value>
+   <value>Great Britain</value>
+   <value>Great Britain</value>
+   </set>
+   </property>
+   
+   <property name="map">
+   <map>
+   <entry key="1" value="India"/>
+   <entry key="2" value="USA"/>
+   <entry key="3" value="Great Britain"/>
+   <entry key="4" value="Great Britain"/>
+   </map>
+   </property>
+   
+   <property name="prop">
+   <props>
+   <prop key="One">India</prop>
+   <prop key="Two">USA</prop>
+   <prop key="Three">Great Britain</prop>
+   <prop key="Four">Great Britain</prop>
+   </props>
+   </property>
+   </bean>
+   </beans>
+   
+   
+   
+   
+   
+   

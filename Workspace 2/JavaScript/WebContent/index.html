@@ -1,0 +1,27 @@
+<html>
+<body>
+<form id="demo">
+<h2>Fibonacci series</h2>
+<script type="text/javascript">
+var a=function (x,y,z)
+{
+	var temp=0;
+		if(z===1)
+		return y;
+		else
+		{
+		temp=x+y;
+		x=y;
+		y=temp;
+		z=z-1;
+		var b=a(x,y,z);
+		return b;
+		}
+	return y;
+	}
+console.log(a(0,1,7));
+
+</script>
+</form>
+</body>
+</html>
