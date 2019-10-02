@@ -26,7 +26,7 @@
 		</property>
 		
 		<property name="hibernate.connection.password">
-		Ushapawan1234
+		***********
 		</property>
 		
 		<mapping class="com.demo.model.eval" />
