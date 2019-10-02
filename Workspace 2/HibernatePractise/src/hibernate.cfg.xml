@@ -22,7 +22,7 @@
       system
    </property>
    <property name="hibernate.connection.password">
-      Ushapawan1234
+      ***********
    </property>
 
    <!-- List of XML mapping files -->
